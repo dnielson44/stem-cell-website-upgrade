@@ -1,0 +1,778 @@
+
+body{
+    background-color: white;
+}
+h1{
+    height: 72px;
+    margin-bottom:20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contacth1{
+    margin-right: 220px;
+}
+header{
+    background-color: #515151;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#homelogo{
+    height:80px;
+    width:auto;
+    margin-right:130px;
+    margin-top: 40px;
+}
+#location{
+    color: white;
+    margin-left:130px;
+}
+#wrapper{
+    width: 992px;
+    height: auto; 
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: white;
+    box-shadow: 0px 3px 3px rgba(81,81,81,0.3);
+}
+nav{
+    background-color: #DD571D;
+    padding: 20px 0;
+    margin-bottom: 60px;
+}
+nav ul{
+    margin-top:0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+nav ul li a:link{
+    color: white;
+}
+nav ul li a:hover{
+    color: #515151;
+}
+nav ul li a:visited{
+    color: black;
+}
+#building{
+    margin-right: 45px;
+}
+div #building img{
+    width:350px;
+    height:auto;
+    margin-top: 20px;
+    margin-right:40px;
+    margin-left:0px;
+}
+div #lab{
+    width:auto;
+    margin-left:80px;
+}
+div #lab img{
+    width:400px;
+    height:auto;
+    padding-bottom: 10px;
+}
+#map{
+
+    margin-right:60px;
+}
+.contactcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    padding-bottom: 40px;
+}
+#contentlocation{
+    margin-left:0px;
+    padding-right: 0px;
+    width:40%;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+#contactinfo{
+    width: 50%;
+    margin-left:80px;
+    padding-right: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+#hours{
+    list-style: none;
+    width: 50%;
+    margin-right: 80px;
+    margin-bottom:20px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+#hours ul{
+    list-style: none;
+}
+.priceh2{
+    margin-left: 80px;
+    padding-bottom: 20px;
+}
+.price{
+    margin-left: 80px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#findus{
+    margin-left: 70px;
+}
+.mobileflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+.map-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    border-left: #515151 solid 2px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.homeH2{
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.whatisStem{
+    margin-left: 80px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+
+}
+#whatish2{
+    margin-left: 80px;
+    padding-left: 220px;
+}
+.faqh2{
+    margin-left:80px;
+    padding-bottom: 20px;
+}
+#kneeimg{
+    width: 200px;
+    height: auto;
+    margin-left: 80px;
+    padding-right: 20px;
+    float: left;
+}
+#kneeimg img{
+    width: 100%;
+}
+.floattxt{
+    margin-left: 80px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+#floatpad{
+    padding-left: 220px;
+}
+#stemcellimg{
+    width: 200px;
+    height: auto;
+    margin-left: 80px;
+    float: left;
+}
+#stemcellimg img{
+    width: 100%;
+}
+.FAQ{
+    margin-left: 80px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+
+}
+#injuredknee{
+    width:300px;
+    margin-left:80px;
+}
+#injuredknee img{
+    width:100%;
+    height:auto;
+}
+.pricelist{
+    padding-bottom:20px;
+    margin-left: 40px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    line-height: 50px;
+    font-size: 16px;
+}
+#needle{
+    width:150px;
+    height: auto;
+    margin-right:140px;
+}
+
+#needle img{
+    width: 100%;
+    height: auto;
+}
+#injection{
+    width: 200px;
+    height:auto;
+
+}
+#injection img{
+    width:100%;
+    height: auto;
+}
+.priceimagecontainer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding-bottom:20px;
+}
+.containerlist{
+    display:none;
+}
+.list{
+    list-style:none;
+    text-decoration: none;
+}
+#firstparagraph{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-size: 16px;
+    margin-left: 80px;
+    margin-right: 10px;
+    margin-bottom:0;
+    height: auto;
+}
+#secondparagraph{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-size: 16px;
+    padding-left:20px;
+    margin-top:20px;
+    margin-right: 20px;
+    width: auto;
+}
+#thirdparagraph{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-size: 16px;
+    margin-right:50px;
+}
+#mobile{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+.contactlocation{
+    display: none;
+}
+h4{
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:20px;
+}
+footer{
+    text-align: center;
+    background-color: #515151;
+    padding: 10px 0;
+    color: white;
+}
+.foot-location{
+    display: none;
+}
+.clear{
+    clear: both;
+}
+@media only screen and (max-width: 992px){
+  
+    #wrapper{
+        width: 768px;
+    }
+    #location{
+        display: none;
+    }
+    #homelogo{
+        margin-right: 50px;
+    }
+    h1{
+        margin-right:220px;
+    }
+    h4{
+        margin-left:40px;
+    }
+    .container{
+        height:auto;
+    }
+    .foot-location{
+        display:block;
+    }
+    nav ul{
+        padding: 10px 0;
+    }
+    nav ul li{
+        padding: 0 40px;
+    }
+    #firstparagraph{
+        margin-left: 40px;
+        padding-bottom:0px;
+    }
+    #secondparagraph{
+        margin-left: 40px;
+        padding: 0;
+    }
+    #building{
+        margin-top: 100px;
+    }
+    div #building img{
+        width: 300px;
+        margin-right: 20px;
+    }
+    .homeH2{
+        padding-top:0px;
+        margin-left: 40px;
+    }
+    div #lab{
+        margin-left:40px;
+    }
+    div #lab img{
+        margin-left: 0px;
+    }
+    .mobileflex{
+        display: flex;
+        flex-direction: column;
+        border-right: #515151 solid 2px;
+        padding-right: 0;
+        margin-bottom: 20px;
+        
+    }
+    .map-container{
+        border-left: none;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-top: 70px;
+        margin-right:10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer div{
+        margin-right:70px;
+    }
+    footer p{
+        margin-left:70px;
+    }
+    #desktop{
+        display:none;
+    }
+    .desktop{
+        display:none;
+    }
+    .contactcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    #contentlocation{
+        margin-left:0px;
+        padding: 0;
+    }
+    #contactinfo{
+        margin-left:40px;
+        padding-right: 40px;
+    }
+    #findus{
+        margin-left: 40px;
+    }
+    #whatish2{
+        margin-left: 40px;
+        padding-left: 220px;
+    }
+    .whatisStem{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    #injuredknee{
+        width:200px;
+        margin-left:40px;
+    }
+    #injuredknee img{
+        width:100%;
+        height:auto;
+    }
+    #needle{
+        margin-right:120px;
+        width: 100px;
+        height: auto;
+    }
+    #injection{
+        width: 150px;
+        height:auto;
+    
+    }
+    #kneeimg{
+        width: 200px;
+        height: auto;
+        margin-left: 40px;
+        padding-right: 20px;
+        float: left;
+    }
+    #kneeimg img{
+        width: 100%;
+    }
+    #stemcellimg{
+        width: 200px;
+        height: auto;
+        margin-left: 40px;
+        float: left;
+    }
+    #stemcellimg img{
+        width: 100%;
+    }
+    .floattxt{
+        margin-left: 40px;
+        line-height: 30px;
+        font-size: 16px;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+    }
+    #floatpad{
+        padding-left: 220px;
+    }
+    .faqh2{
+        margin-left:40px;
+    }
+    .FAQ{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .priceh2{
+        margin-left: 40px;
+        padding-bottom: 20px;
+    }
+    .price{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .pricelist{
+        margin-left:20px;
+    }
+    #mobile{
+        display:inline;
+        text-decoration: none;
+        color: #DD571D;
+    }
+    .mobile{
+        display:inline;
+        text-decoration: none;
+        color: #DD571D;
+    }
+    .contactfooter{
+        display: block;
+        margin:0;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:768px){
+    #wrapper{
+        width: 100%;
+    }
+    #homelogo{
+        margin:0;
+        margin-top: 20px;
+        height:50px;
+    }
+    h1{
+        margin: 0;
+    }
+    h4{
+        margin:0;
+    }
+    #contacth1{
+        margin-right: 0px;
+    }
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:20px;
+    }
+    nav ul li{
+        display: block;
+        border-bottom: white solid 2px;
+        padding:10px 0;
+        text-align: center;
+    }
+    .bottomborder{
+        border-bottom:none;
+    }
+    nav a{
+        font-size: 1.1em;
+    }
+    .container{
+        height:auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .homeH2{
+        text-align: left;;
+        margin:0;
+        padding:0;
+        padding-top:30px;
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .mobileflex{
+        display: flex;
+        flex-direction: column-reverse;
+        border-right: none;
+    }
+    #firstparagraph{
+        margin:0;
+        padding-top:20px;
+        height:auto;
+    }
+    div #building{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    div #building img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    #secondparagraph{
+        margin:0;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    div #lab{
+        width:100%;
+        margin:0;
+        padding-bottom: 30px;
+        border-bottom: #515151 solid 2px;
+    }
+    div #lab img{
+        margin:0;
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 30px;
+        height: auto;
+        align-items: center;
+    }
+    .map-container{
+        border-left: none;
+        margin:0px;
+        padding-left: 0;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #thirdparagraph{
+        padding-top:20px;
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+    #map{
+        margin: 0px;
+    }
+    .contactcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    #contentlocation{
+        margin: 0;
+        padding-bottom: 20px;
+        width:100%;
+    }
+    #contactinfo{
+        margin: 0;
+        width:100%;
+        padding-bottom:40px;
+    }
+    #hours{
+        margin: 0;
+        padding-top: 20px;
+        width:100%;
+    }
+    #findus{
+        margin-left: 0px;
+    }
+    #whatish2{
+        margin: 0;
+        padding: 0;
+    }
+    .whatisStem{
+        margin: 0;
+    }
+    #kneeimg{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        padding: 0;
+        float: none;
+    }
+    #kneeimg img{
+        width: 100%;
+    }
+    #stemcellimg{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        float: none;
+    }
+    #stemcellimg img{
+        width: 100%;
+    }
+    .floattxt{
+        margin-left: 0px;
+        line-height: 30px;
+        font-size: 16px;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+    }
+    #floatpad{
+        padding-left: 0px;
+    }
+    .faqh2{
+        margin-left:0px;
+    }
+    .FAQ{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .priceh2{
+        margin-left: 0px;
+    }
+    .price{
+        margin: 0px;
+    }
+    .pricelist{
+        display: none;
+    }
+    .containerlist{
+        display: block;
+        list-style: circle;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+        padding:20px 0;
+    }
+    #injuredknee{
+        width:100%;
+        margin:0;
+    }
+    #injuredknee img{
+        width:100%;
+        height:auto;
+    }
+    #injection{
+        width: 100%;
+        height:auto;
+    
+    }
+    #needle{
+        display: none;
+    }
+    .priceimagecontainer{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div{
+        margin:0;
+    }
+    footer p{
+        margin:0;
+    }
+    #desktop{
+        display:none;
+    }
+    .desktop{
+        display:none;
+    }
+    #mobile{
+        display:inline;
+        text-decoration: none;
+        color: #DD571D;
+    }
+    .mobile{
+        display:inline;
+        text-decoration: none;
+        color: #DD571D;
+    }
+    div #map{
+        width: 100%;
+    }
+
+}
